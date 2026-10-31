@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Little Ink Studio</title>
   <style>
+    .drawing {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #fffaf2;
+  display: block;
+    }
     :root {
       --paper: #fffaf2;
       --ink: #49372f;
@@ -208,7 +215,10 @@
 
       <div class="grid">
         <article class="card">
-          <div class="art pink">🌷</div>
+          <img
+  src="images/my-first-drawing.jpg"
+  alt="My first drawing"
+  class="drawing">
           <div class="card-content">
             <h3>Flower Days</h3>
             <p>A little study of flowers and quiet mornings.</p>
